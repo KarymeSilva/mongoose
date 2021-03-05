@@ -10,7 +10,7 @@ async function main() {
     });
     const productSaved = await product.save();
     return productSaved;
-}
+} 
 
 main()
     .then(productSaved => console.log(productSaved))

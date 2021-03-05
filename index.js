@@ -5,7 +5,7 @@ const product = require('./models/product');
 
 // creating a new document base on the model
 const product = new product({
-    name: 'laptop',
+    name: 'lap',
     description: 'lenovo thinkpad x1 carbon 6th generation',
     price: '1300.99'
 });
